@@ -4,8 +4,8 @@ using UnityEngine;
 using UnityEngine.UI;
 
 
-[CreateAssetMenu]
-public class IntData1 : ScriptableObject
+[CreateAssetMenu(menuName = "Single Attribute/IntData1")]
+public class IntData1 : JulianID
 {
     public int value;
 
